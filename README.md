@@ -12,7 +12,7 @@ Created from the Auth0 sample project, this is a project that will allow the cre
 
 ## Author
 
-[Auth0](https://auth0.com)
+[Auth0](https://auth0.com) - [jagui1](https://github.com/jagui1)
 
 ## License
 
