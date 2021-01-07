@@ -4,6 +4,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ExternalApiComponent } from './pages/external-api/external-api.component';
 import { AuthGuard } from '@auth0/auth0-angular';
+import { PickerComponent } from './pages/picker/picker.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 
 const routes: Routes = [
   {
@@ -19,6 +22,21 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'picker',
+    component: PickerComponent,
+    canActivate: [AuthGuard],
+  },
+  {
+    path: 'schedule',
+    component: ScheduleComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'scoreboard',
+    component: ScoreboardComponent,
     pathMatch: 'full',
   },
 ];

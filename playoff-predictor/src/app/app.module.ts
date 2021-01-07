@@ -18,6 +18,9 @@ import { ExternalApiComponent } from './pages/external-api/external-api.componen
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthHttpInterceptor, AuthModule } from '@auth0/auth0-angular';
 import { environment as env } from '../environments/environment';
+import { PickerComponent } from './pages/picker/picker.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 
 
 @NgModule({
@@ -31,6 +34,9 @@ import { environment as env } from '../environments/environment';
     HomeContentComponent,
     LoadingComponent,
     ExternalApiComponent,
+    PickerComponent,
+    ScheduleComponent,
+    ScoreboardComponent,
   ],
   imports: [
     BrowserModule,
