@@ -16,11 +16,11 @@ jobs:
           root: ~/
           paths:
             - project
-  sample-01:
+  playoff-predictor:
     machine: true
     environment:
-      - AUTH0_CFG: Sample-01/auth_config.json
-      - AUTH0_EXAMPLE_CFG: Sample-01/auth_config.json.example
+      - AUTH0_CFG: playoff-predictor/auth_config.json
+      - AUTH0_EXAMPLE_CFG: playoff-predictor/auth_config.json.example
     steps:
       - node/install:
           node-version: 14.15.0
@@ -36,10 +36,10 @@ jobs:
               $AUTH0_EXAMPLE_CFG > $AUTH0_CFG
       - node/install-packages:
           pkg-manager: npm
-          app-dir: Sample-01
+          app-dir: playoff-predictor
       - run:
           name: Run unit tests
-          working_directory: Sample-01
+          working_directory: playoff-predictor
           command: npm run test:ci
 workflows:
   version: 2
@@ -47,7 +47,7 @@ workflows:
     jobs:
       - checkout:
           context: Quickstart SPA Test
-      - sample-01:
+      - playoff-predictor:
           context: Quickstart SPA Test
           requires:
             - checkout
