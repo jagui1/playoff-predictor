@@ -42,7 +42,7 @@
           <!-- Login button: show if NOT authenticated -->
           <li
             class="nav-item"
-            *ngIf="(auth.isAuthenticated$ | async) === false"
+            *ngIf="(auth.isAuthenticated$ | async) === true"
           >
             <button
               id="qsLoginBtn"

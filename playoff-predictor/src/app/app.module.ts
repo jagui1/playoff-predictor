@@ -22,6 +22,13 @@ import { PickerComponent } from './pages/picker/picker.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
 import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 
+import { TableModule } from 'primeng/table';
+import { FormsModule }   from '@angular/forms';
+import { DropdownModule } from 'primeng/dropdown';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetailComponent } from './components/detail/detail.component';
+
+
 
 @NgModule({
   declarations: [
@@ -37,6 +44,7 @@ import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
     PickerComponent,
     ScheduleComponent,
     ScoreboardComponent,
+    DetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +53,10 @@ import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
     NgbModule,
     HighlightModule,
     FontAwesomeModule,
+    BrowserAnimationsModule,
+    TableModule,
+    DropdownModule,
+    FormsModule,
     AuthModule.forRoot({
       ...env.auth,
       httpInterceptor: {

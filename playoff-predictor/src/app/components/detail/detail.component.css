@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h3{
+    padding-left: 1%;
+}
+.correct {
+    text-align: center;
+    color: rgb(0, 158, 0);
+}
+.incorrect {
+    text-align: center;
+    color: red;
+}
+.unanswered {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.label {
+    text-align: center;
+    color: rgb(51, 155, 155);
+    background-color: rgb(0, 0, 0) !important;
+    
+}

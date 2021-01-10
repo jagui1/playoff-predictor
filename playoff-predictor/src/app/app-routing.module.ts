@@ -7,6 +7,7 @@ import { AuthGuard } from '@auth0/auth0-angular';
 import { PickerComponent } from './pages/picker/picker.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
 import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 const routes: Routes = [
   {
@@ -39,6 +40,10 @@ const routes: Routes = [
     component: ScoreboardComponent,
     pathMatch: 'full',
   },
+  {
+    path: 'details/:id',
+    component: DetailComponent
+  }
 ];
 
 @NgModule({

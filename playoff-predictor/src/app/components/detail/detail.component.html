@@ -1,0 +1,46 @@
+<div *ngIf='user'>
+    <h1>{{ user.name }}</h1>
+    <h3>{{ user.score }} Points</h3>
+
+    <div>
+        <ul>
+          <li class="label">
+            <h2>Superbowl Prediction (+10)</h2>  
+          </li>      
+          <li>
+            <p class="{{sb.style}}">{{ sb.answer }}</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="label">
+            <h2>AFC Champion Prediction (+5)</h2>  
+          </li>      
+          <li>
+            <p class="{{afc.style}}">{{ afc.answer }}</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="label">
+            <h2>NFC Champion Prediction (+5)</h2>  
+          </li>      
+          <li>
+            <p class="{{nfc.style}}">{{ nfc.answer }}</p>
+          </li>
+        </ul>
+      </div>
+      <div *ngIf='games.length > 0'>
+          <ul>
+            <li class="label">
+                <h2>Wildcard Weekend(+1)</h2>
+            </li>
+            <li *ngFor="let game of games">
+              <p class="{{game.style}}">{{ game.teams }}</p>
+              <p class="{{game.style}}">{{ game.winner }}</p>
+            </li>
+          </ul> 
+      </div>
+</div> 

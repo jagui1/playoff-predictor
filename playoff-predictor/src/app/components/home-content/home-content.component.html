@@ -2,7 +2,7 @@
     <h2 class="my-5 text-center">What can I do next?</h2>
 
     <div class="row">
-      <div class="col-md-5 mb-4">
+      <div class="col-md-5 mb-4" *ngif='false'>
         <h6 class="mb-3">
           <a href="https://auth0.com/docs/connections">
             Create a profile to make picks
@@ -15,13 +15,11 @@
         </p>
       </div>
 
-      <div class="col-md"></div>
+      <div class="col-md" *ngif='false'></div>
 
-      <div class="col-md-5 mb-4">
+      <div class="col-md-5 mb-4" *ngif='false'>
         <h6 class="mb-3">
-          <a href="https://auth0.com/docs/multifactor-authentication">
-            Make Your Picks
-          </a>
+          <a routerLink="schedule">Make Your Picks</a>
         </h6>
         <p>
           Once you have created your account using your phone number you'll
@@ -35,9 +33,7 @@
     <div class="row">
       <div class="col-md-5 mb-4">
         <h6 class="mb-3">
-          <a href="https://auth0.com/docs/anomaly-detection">
-            View Schedule
-          </a>
+          <a routerLink="schedule">View Schedule</a>
         </h6>
         <p>
           Check out the current bracket of the remaining teams in the playoffs.
@@ -48,9 +44,7 @@
 
       <div class="col-md-5 mb-4">
         <h6 class="mb-3">
-          <a href="https://auth0.com/docs/rules">
-            View Scoreboard
-          </a>
+          <a routerLink="scoreboard">View Scoreboard</a>
         </h6>
         <p>
           Scoreboard is the live view of everyone who has submitted picks and 

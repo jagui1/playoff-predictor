@@ -1,1 +1,32 @@
-<p>scoreboard works!</p>
+<p-table [value]="users" sortField="score" sortOrder="-1">
+    <ng-template pTemplate="caption">
+        <p>Wildcard Weekend</p>
+    </ng-template>
+    <ng-template pTemplate="colgroup">
+        <colgroup>
+            <col [style.width]="'100px'">
+            <col [style.width]="'110px'">
+            <col [style.width]="'110px'">
+        </colgroup>
+    </ng-template>
+    <ng-template pTemplate="header"> 
+        <tr>
+            <th>Name</th>
+            <th>Current Score</th>
+            <th>Previous Week</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-user>
+        <tr class="body">
+            <td>
+                <a routerLink="/details/{{ user.name }}">{{ user.name }}</a>
+                <br />    
+                <!-- <i *ngIf='user.scores[week] > user.scores[week-1]' class="material-icons green">trending_up</i>
+                <i *ngIf='user.scores[week] === user.scores[week-1]' class="material-icons">trending_flat</i>
+                <i *ngIf='user.scores[week] < user.scores[week-1]' class="material-icons red">trending_down</i>     -->
+            </td>
+            <td>{{ user.score }}</td>
+            <td>0</td>
+        </tr>
+    </ng-template>
+</p-table>
