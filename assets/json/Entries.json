@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Nurit",
+        "nickname": "ur mom",
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Buccaneers",
+            "sbWinner": "Chiefs",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Steelers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Greg",
+        "nickname": "Mozafooza",
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Browns",
+            "nfcWinner": "Washington Football Team",
+            "sbWinner": "Browns",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Washington Football Team"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Bears"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Browns"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Stephanie",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Packers",
+            "sbWinner": "Ravens",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Browns"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Zach",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Bills",
+            "nfcWinner": "Packers",
+            "sbWinner": "Packers",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Titans"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Browns"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Ryan",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Saints",
+            "sbWinner": "Bills",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Titans"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Steelers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Amanda",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Saints",
+            "sbWinner": "Saints",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Colts"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Washington Football Team"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Steelers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Adan",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Buccaneers",
+            "sbWinner": "Buccaneers",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Titans"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Steelers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Jeremy",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Bills",
+            "nfcWinner": "Saints",
+            "sbWinner": "Bills",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Washington Football Team"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Titans"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Steelers"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Rishi",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Packers",
+            "sbWinner": "Ravens",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Bills"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Seahawks"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Washington Football Team"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Browns"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Jayson",
+        "nickname": null,
+        "score": 0,
+        "scores": [],
+        "entry": {
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Packers",
+            "sbWinner": "Chiefs",
+            "wildcards": [
+                {
+                    "home": "Bills",
+                    "away": "Colts",
+                    "winner": "Colts"
+                },
+                {
+                    "home": "Seahawks",
+                    "away": "Rams",
+                    "winner": "Rams"
+                },
+                {
+                    "home": "Washington Football Team",
+                    "away": "Buccaneers",
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Titans",
+                    "away": "Ravens",
+                    "winner": "Ravens"
+                },
+                {
+                    "home": "Saints",
+                    "away": "Bears",
+                    "winner": "Saints"
+                },
+                {
+                    "home": "Steelers",
+                    "away": "Browns",
+                    "winner": "Browns"
+                }
+            ]
+        }
+    }
+]

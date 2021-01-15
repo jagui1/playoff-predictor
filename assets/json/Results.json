@@ -1,0 +1,37 @@
+{
+    "afcWinner": null,
+    "nfcWinner": null,
+    "sbWinner": null,
+    "wildcards": [
+        {
+            "home": "Bills",
+            "away": "Colts",
+            "winner": "Bills"
+        },
+        {
+            "home": "Seahawks",
+            "away": "Rams",
+            "winner": "Rams"
+        },
+        {
+            "home": "Washington Football Team",
+            "away": "Buccaneers",
+            "winner": "Buccaneers"
+        },
+        {
+            "home": "Titans",
+            "away": "Ravens",
+            "winner": "Ravens"
+        },
+        {
+            "home": "Saints",
+            "away": "Bears",
+            "winner": "Saints"
+        },
+        {
+            "home": "Steelers",
+            "away": "Browns",
+            "winner": "Browns"
+        }
+    ]
+}
