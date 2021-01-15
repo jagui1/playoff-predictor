@@ -28,7 +28,7 @@ const routes: Routes = [
   {
     path: 'picker',
     component: PickerComponent,
-    canActivate: [AuthGuard],
+    pathMatch: 'full',
   },
   {
     path: 'schedule',

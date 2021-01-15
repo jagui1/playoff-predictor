@@ -1,6 +1,6 @@
 <div *ngIf='user'>
-    <h1>{{ user.name }}</h1>
-    <h3>{{ user.score }} Points</h3>
+    <h1>{{ user.name }}</h1><h1 *ngIf='user.nickname'>aka {{ user.nickname }}</h1>
+    <h3>{{ user.score }} Points</h3>    
 
     <div>
         <ul>
@@ -38,7 +38,7 @@
                 <h2>Wildcard Weekend(+1)</h2>
             </li>
             <li *ngFor="let game of games">
-              <p class="{{game.style}}">{{ game.teams }}</p>
+              <h2 class="label">{{ game.teams }}</h2>
               <p class="{{game.style}}">{{ game.winner }}</p>
             </li>
           </ul> 

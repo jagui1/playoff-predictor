@@ -1,0 +1,31 @@
+th, td, p, h2, a {
+    text-align: center;
+    font-family: 'freshmanFont', 'Cinzel Decorative', sans-serif;
+}
+
+/* tr:nth-child(1){
+    color: rgba(255, 217, 0, 0.712) !important;
+}
+tr:nth-child(2){
+    color: silver !important;
+}
+tr:nth-child(3){
+    color: #CD7F32 !important;
+} */
+
+h2, a {
+    font-size: xx-large;
+    margin: 0;
+}
+
+th {
+    font-size: larger;
+}
+
+.green {
+    color: rgb(0, 158, 0);
+}
+
+.red {
+    color: red;
+}

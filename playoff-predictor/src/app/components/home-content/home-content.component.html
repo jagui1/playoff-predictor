@@ -2,7 +2,7 @@
     <h2 class="my-5 text-center">What can I do next?</h2>
 
     <div class="row">
-      <div class="col-md-5 mb-4" *ngif='false'>
+      <div class="col-md-5 mb-4" *ngIf='false'>
         <h6 class="mb-3">
           <a href="https://auth0.com/docs/connections">
             Create a profile to make picks
@@ -15,9 +15,8 @@
         </p>
       </div>
 
-      <div class="col-md" *ngif='false'></div>
 
-      <div class="col-md-5 mb-4" *ngif='false'>
+      <div class="col-md-5 mb-4">
         <h6 class="mb-3">
           <a routerLink="schedule">Make Your Picks</a>
         </h6>
@@ -28,19 +27,9 @@
           prediction and winner for bonus points.
         </p>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-5 mb-4">
-        <h6 class="mb-3">
-          <a routerLink="schedule">View Schedule</a>
-        </h6>
-        <p>
-          Check out the current bracket of the remaining teams in the playoffs.
-        </p>
-      </div>
 
       <div class="col-md"></div>
+
 
       <div class="col-md-5 mb-4">
         <h6 class="mb-3">
@@ -51,5 +40,20 @@
           how many points they have earned so far.
         </p>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 mb-4" *ngIf="false">
+        <h6 class="mb-3">
+          <a routerLink="schedule">View Schedule</a>
+        </h6>
+        <p>
+          Check out the current bracket of the remaining teams in the playoffs.
+        </p>
+      </div>
+
+      <div class="col-md"></div>
+
+      
     </div>
   </div>

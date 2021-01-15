@@ -21,17 +21,17 @@
         {
             "home": "Titans",
             "away": "Ravens",
-            "winner": null
+            "winner": "Ravens"
         },
         {
             "home": "Saints",
             "away": "Bears",
-            "winner": null
+            "winner": "Saints"
         },
         {
             "home": "Steelers",
             "away": "Browns",
-            "winner": null
+            "winner": "Browns"
         }
     ]
 }
