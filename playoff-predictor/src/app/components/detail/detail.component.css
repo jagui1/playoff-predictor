@@ -28,3 +28,10 @@ h3{
 p { 
     font-size: xx-large;
 }
+
+li {
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 8px;
+}
