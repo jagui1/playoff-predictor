@@ -14,6 +14,9 @@ import { Game } from 'src/app/entities/Game';
 })
 export class ScoreboardComponent implements OnInit {
 
+  WILDCARD = 0;
+  DIVISIONAL = 1;
+
   users: User[];
   results: Entry;
   week: number;
@@ -24,13 +27,13 @@ export class ScoreboardComponent implements OnInit {
 
     this.data.getResults().subscribe(res => this.results = res);
 
-    this.week = 0;
+    this.week = this.DIVISIONAL;
 
     this.data.getUsers().subscribe(
       data => {
         this.users = data;
         for(let i=0; i<this.users.length; i++){
-          for(let j=0; j<1; j++){
+          for(let j=0; j<=this.week; j++){
             this.users[i].scores.push(this.calcScore(this.users[i].entry, j));
           }
           this.users[i].score = this.calcScore(this.users[i].entry, this.week)
@@ -40,9 +43,15 @@ export class ScoreboardComponent implements OnInit {
   }
 
   calcScore(entry: Entry, week: number) : number{
-    let wildcards : Game[] = entry.wildcards;
-    let actualWC : Game[] = this.results.wildcards;
     let total : number = 0;
+
+    let allGames : Game[] = [];
+    let allResults : Game[] = [];
+
+    for(let i = 0; i <= week; i++){
+      allGames = allGames.concat(entry.weeks[i].games);
+      allResults = allResults.concat(this.results.weeks[i].games);
+    }  
 
     if(entry.afcWinner === this.results.afcWinner){
       total += 5;
@@ -58,8 +67,8 @@ export class ScoreboardComponent implements OnInit {
       total += 10;
     }
 
-    for(let i=0; i < wildcards.length; i++){
-      if(wildcards[i].winner === actualWC[i].winner){
+    for(let i in allGames){
+      if(allGames[i].winner === allResults[i].winner){
         total += 1;
       }
     }

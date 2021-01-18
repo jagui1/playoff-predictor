@@ -33,13 +33,15 @@
         </ul>
       </div>
       <div *ngIf='games.length > 0'>
-          <ul>
+          <ul *ngFor="let game of games; let i = index">
             <li class="label">
-                <h2>Wildcard Weekend(+1)</h2>
+                <h2>{{ results.weeks[i].weekName }}</h2>
             </li>
-            <li *ngFor="let game of games">
-              <h2 class="label">{{ game.teams }}</h2>
-              <p class="{{game.style}}">{{ game.winner }}</p>
+            <li *ngFor="let g of game">
+              <h2 class="label">{{ g.teams }}</h2>
+              <p *ngIf="g.style === CORRECT" class="{{g.style}}">{{ g.winner }} (+1)</p>
+              <p *ngIf="g.style === INCORRECT" class="{{g.style}}">{{ g.winner }}</p>
+
             </li>
           </ul> 
       </div>

@@ -14,13 +14,15 @@ type PredictGame = Array<{teams: string, winner: string, style: string}>;
   styleUrls: ['./detail.component.css']
 })
 export class DetailComponent implements OnInit {
-
+  CORRECT: string = "correct";
+  INCORRECT: string = "incorrect";
+  UNANSWERED: string =  "unanswered";
   
   week: number;
   user: User;
   name: string;
   results: Entry;
-  games: PredictGame = [];
+  games: PredictGame[] = [];
   afc: Champion;
   nfc: Champion;
   sb: Champion;
@@ -32,7 +34,7 @@ export class DetailComponent implements OnInit {
   ngOnInit() {
     this.data.getResults().subscribe(res => this.results = res);
 
-    this.week = 0;
+    this.week = 1;
 
     this.data.getUsers().subscribe(
       res => {
@@ -44,22 +46,21 @@ export class DetailComponent implements OnInit {
     );
   }
 
-  calcScoreVerbose(entry: Entry, week: number) : number{
-    let wildcards : Game[] = entry.wildcards;
-    let actualWC : Game[] = this.results.wildcards;
+  calcScoreVerbose(entry: Entry, week: number) : number{   
+
     this.games = [];
     let total : number = 0;
 
     if(entry.afcWinner === this.results.afcWinner){
       this.afc = {
-        "style": "correct",
+        "style": this.CORRECT,
         "answer": entry.afcWinner,
         "final": this.results.afcWinner
       }
       total += 5;
     } else {
       this.afc = {
-        "style": "unanswered",
+        "style": this.UNANSWERED,
         "answer": entry.afcWinner,
         "final": this.results.afcWinner
       }
@@ -67,14 +68,14 @@ export class DetailComponent implements OnInit {
 
     if(entry.nfcWinner === this.results.nfcWinner){
       this.nfc = {
-        "style": "correct",
+        "style": this.CORRECT,
         "answer": entry.nfcWinner,
         "final": this.results.nfcWinner
       }
       total += 5;
     } else {
       this.nfc = {
-        "style": "unanswered",
+        "style": this.UNANSWERED,
         "answer": entry.nfcWinner,
         "final": this.results.nfcWinner
       }
@@ -82,40 +83,50 @@ export class DetailComponent implements OnInit {
 
     if(entry.sbWinner === this.results.sbWinner){
       this.sb = {
-        "style": "correct",
+        "style": this.CORRECT,
         "answer": entry.sbWinner,
         "final": this.results.sbWinner
       }
       total += 5;
     } else {
       this.sb = {
-        "style": "unanswered",
+        "style": this.UNANSWERED,
         "answer": entry.sbWinner,
         "final": this.results.sbWinner
       }
     }
 
-    for(let i=0; i < actualWC.length; i++){
-      if(wildcards[i].winner === actualWC[i].winner){
-        total += 1;
-        this.games.push(
-          { 
-            "teams": actualWC[i].away + " @ " + actualWC[i].home,
-            "winner": wildcards[i].winner,
-            "style": "correct"
-          }
-        );
+    let allGames : Game[] = [];
+    let allResults : Game[] = [];
 
-      } else {
-        this.games.push(
-          {
-            "teams": wildcards[i].away + " @ " + actualWC[i].home,
-            "winner": wildcards[i].winner,
-            "style": "incorrect"
-          }
-        );
+    for(let j in this.results.weeks){
+      allGames = entry.weeks[j].games;
+      allResults = this.results.weeks[j].games;
+      this.games.push([]);
+      
+
+      for(let i in allResults){
+        if(allGames[i].winner === allResults[i].winner){
+          total += 1;
+          this.games[j].push(
+            { 
+              "teams": allResults[i].away + " @ " + allResults[i].home,
+              "winner": allGames[i].winner,
+              "style": this.CORRECT
+            }
+          );
+
+        } else {
+          this.games[j].push(
+            {
+              "teams": allGames[i].away + " @ " + allResults[i].home,
+              "winner": allGames[i].winner,
+              "style": this.INCORRECT
+            }
+          );
+        }
       }
-    }
+  }
     return total;
   }
 

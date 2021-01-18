@@ -1,6 +1,6 @@
 <p-table [value]="users" sortField="score" sortOrder="-1">
     <ng-template pTemplate="caption">
-        <p>Wildcard Weekend</p>
+        <p> {{ results?.weeks[week]?.weekName }}</p>
     </ng-template>
     <ng-template pTemplate="colgroup">
         <colgroup>
@@ -20,13 +20,12 @@
         <tr class="body">
             <td>
                 <a routerLink="/details/{{ user.name }}">{{ user.name }}</a>
-                <br />    
-                <!-- <i *ngIf='user.scores[week] > user.scores[week-1]' class="material-icons green">trending_up</i>
+                <i *ngIf='user.scores[week] > user.scores[week-1]' class="material-icons green">trending_up</i>
                 <i *ngIf='user.scores[week] === user.scores[week-1]' class="material-icons">trending_flat</i>
-                <i *ngIf='user.scores[week] < user.scores[week-1]' class="material-icons red">trending_down</i>     -->
+                <i *ngIf='user.scores[week] < user.scores[week-1]' class="material-icons red">trending_down</i>    
             </td>
             <td>{{ user.score }}</td>
-            <td>0</td>
+            <td>{{ user.scores[week-1] }}</td>
         </tr>
     </ng-template>
 </p-table>
