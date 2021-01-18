@@ -8,36 +8,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Buccaneers",
             "sbWinner": "Chiefs",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName": "Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Steelers"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Steelers"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        }
+                    ]
                 }
             ]
         }
@@ -51,36 +81,66 @@
             "afcWinner": "Browns",
             "nfcWinner": "Washington Football Team",
             "sbWinner": "Browns",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Washington Football Team"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Bears"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Washington Football Team"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Bears"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Browns"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Rams"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        }
+                    ]
                 }
             ]
         }
@@ -94,36 +154,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
             "sbWinner": "Ravens",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Browns"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
@@ -137,36 +227,66 @@
             "afcWinner": "Bills",
             "nfcWinner": "Packers",
             "sbWinner": "Packers",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Titans"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Titans"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Browns"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
@@ -180,36 +300,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Saints",
             "sbWinner": "Bills",
-            "wildcards": [
-                {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+            "weeks": [
+                {            
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Titans"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Steelers"
+                        }
+                    ]     
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Titans"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Steelers"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Rams"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
@@ -223,36 +373,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Saints",
             "sbWinner": "Saints",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Colts"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Colts"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Washington Football Team"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Steelers"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Washington Football Team"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Steelers"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
@@ -266,36 +446,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Buccaneers",
             "sbWinner": "Buccaneers",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Titans"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Steelers"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Titans"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Steelers"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        }
+                    ]
                 }
             ]
         }
@@ -309,36 +519,66 @@
             "afcWinner": "Bills",
             "nfcWinner": "Saints",
             "sbWinner": "Bills",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Washington Football Team"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Titans"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Steelers"
+                        }
+                    ]       
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Washington Football Team"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Titans"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Steelers"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        }
+                    ]
                 }
             ]
         }
@@ -352,36 +592,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
             "sbWinner": "Ravens",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Bills"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Bills"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Seahawks"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Washington Football Team"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Seahawks"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Washington Football Team"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Browns"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
@@ -395,36 +665,66 @@
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
             "sbWinner": "Chiefs",
-            "wildcards": [
+            "weeks": [
                 {
-                    "home": "Bills",
-                    "away": "Colts",
-                    "winner": "Colts"
+                    "weekName":"Wildcard Weekend",
+                    "games": [
+                        {
+                            "home": "Bills",
+                            "away": "Colts",
+                            "winner": "Colts"
+                        },
+                        {
+                            "home": "Seahawks",
+                            "away": "Rams",
+                            "winner": "Rams"
+                        },
+                        {
+                            "home": "Washington Football Team",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Titans",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Bears",
+                            "winner": "Saints"
+                        },
+                        {
+                            "home": "Steelers",
+                            "away": "Browns",
+                            "winner": "Browns"
+                        }
+                    ]
                 },
                 {
-                    "home": "Seahawks",
-                    "away": "Rams",
-                    "winner": "Rams"
-                },
-                {
-                    "home": "Washington Football Team",
-                    "away": "Buccaneers",
-                    "winner": "Buccaneers"
-                },
-                {
-                    "home": "Titans",
-                    "away": "Ravens",
-                    "winner": "Ravens"
-                },
-                {
-                    "home": "Saints",
-                    "away": "Bears",
-                    "winner": "Saints"
-                },
-                {
-                    "home": "Steelers",
-                    "away": "Browns",
-                    "winner": "Browns"
+                    "weekName": "Divisional Round",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Rams",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Bills",
+                            "away": "Ravens",
+                            "winner": "Ravens"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Browns",
+                            "winner": "Chiefs"
+                        },
+                        {
+                            "home": "Saints",
+                            "away": "Buccaneers",
+                            "winner": "Saints"
+                        }
+                    ]
                 }
             ]
         }
