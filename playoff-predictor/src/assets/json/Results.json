@@ -2,6 +2,7 @@
     "afcWinner": null,
     "nfcWinner": null,
     "sbWinner": null,
+    "eliminated": ["Colts", "Seahawks", "Washington Football Team", "Titans", "Bears", "Steelers", "Rams", "Ravens", "Browns", "Saints"],
     "weeks": [
         {        
             "weekName": "Wildcard Weekend",

@@ -58,6 +58,12 @@ export class DetailComponent implements OnInit {
         "final": this.results.afcWinner
       }
       total += 5;
+    } else if (this.results.eliminated.includes(entry.afcWinner)){
+      this.afc = {
+        "style": this.INCORRECT,
+        "answer": entry.afcWinner,
+        "final": this.results.afcWinner
+      }
     } else {
       this.afc = {
         "style": this.UNANSWERED,
@@ -73,6 +79,12 @@ export class DetailComponent implements OnInit {
         "final": this.results.nfcWinner
       }
       total += 5;
+    } else if (this.results.eliminated.includes(entry.nfcWinner)){
+      this.nfc = {
+        "style": this.INCORRECT,
+        "answer": entry.nfcWinner,
+        "final": this.results.nfcWinner
+      }
     } else {
       this.nfc = {
         "style": this.UNANSWERED,
@@ -88,6 +100,12 @@ export class DetailComponent implements OnInit {
         "final": this.results.sbWinner
       }
       total += 5;
+    } else if (this.results.eliminated.includes(entry.sbWinner)){
+      this.sb = {
+        "style": this.INCORRECT,
+        "answer": entry.sbWinner,
+        "final": this.results.afcWinner
+      }
     } else {
       this.sb = {
         "style": this.UNANSWERED,
