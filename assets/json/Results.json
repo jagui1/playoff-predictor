@@ -2,6 +2,7 @@
     "afcWinner": null,
     "nfcWinner": null,
     "sbWinner": null,
+    "eliminated": ["Colts", "Seahawks", "Washington Football Team", "Titans", "Bears", "Steelers", "Rams", "Ravens", "Browns", "Saints"],
     "weeks": [
         {        
             "weekName": "Wildcard Weekend",
@@ -60,6 +61,31 @@
                     "home": "Saints",
                     "away": "Buccaneers",
                     "winner": "Buccaneers"
+                }
+            ]
+        },
+        {        
+            "weekName": "Championship Round",
+            "games": [
+                {
+                    "home": "Chiefs",
+                    "away": "Bills",
+                    "winner": null
+                },
+                {
+                    "home": "Saints",
+                    "away": "Buccaneers",
+                    "winner": null
+                }
+            ]
+        },
+        {        
+            "weekName": "Super Bowl",
+            "games": [
+                {
+                    "home": "home",
+                    "away": "away",
+                    "winner": null
                 }
             ]
         }

@@ -4,6 +4,7 @@
         "nickname": "ur mom",
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Buccaneers",
@@ -77,6 +78,7 @@
         "nickname": "Mozafooza",
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Browns",
             "nfcWinner": "Washington Football Team",
@@ -150,6 +152,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
@@ -223,6 +226,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Bills",
             "nfcWinner": "Packers",
@@ -296,6 +300,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Saints",
@@ -369,6 +374,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Saints",
@@ -442,6 +448,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Buccaneers",
@@ -515,6 +522,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Bills",
             "nfcWinner": "Saints",
@@ -588,6 +596,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
@@ -661,6 +670,7 @@
         "nickname": null,
         "score": 0,
         "scores": [],
+        "positions": [],
         "entry": {
             "afcWinner": "Chiefs",
             "nfcWinner": "Packers",
