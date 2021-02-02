@@ -17,3 +17,7 @@ Created from the Auth0 sample project, this is a project that will allow the cre
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+
+## Publish
+ng build --prod --base-href="https://jagui1.github.io/playoff-predictor/"
+ngh --dir=dist/playoff-predictor

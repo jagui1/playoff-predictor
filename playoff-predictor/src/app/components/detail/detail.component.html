@@ -1,6 +1,6 @@
 <div *ngIf='user'>
     <h1>{{ user.name }}</h1><h1 *ngIf='user.nickname'>aka {{ user.nickname }}</h1>
-    <h3>{{ user.score }} Points</h3>    
+    <h3>{{ user?.score }} Points</h3>    
 
     <div>
         <ul>

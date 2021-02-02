@@ -5,5 +5,6 @@ export interface User {
     nickname: string;
     score: number;
     scores: number[];
+    positions: number[];
     entry: Entry;
 }

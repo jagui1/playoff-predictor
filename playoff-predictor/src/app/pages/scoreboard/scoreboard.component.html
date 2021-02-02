@@ -16,13 +16,13 @@
             <th>Previous Week</th>
         </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-user>
+    <ng-template pTemplate="body" let-user let-i="rowIndex">
         <tr class="body">
             <td>
                 <a routerLink="/details/{{ user.name }}">{{ user.name }}</a>
-                <i *ngIf='user.scores[week] > user.scores[week-1]' class="material-icons green">trending_up</i>
+                <!-- <i *ngIf='user.scores[week] > user.scores[week-1]' class="material-icons green">trending_up</i>
                 <i *ngIf='user.scores[week] === user.scores[week-1]' class="material-icons">trending_flat</i>
-                <i *ngIf='user.scores[week] < user.scores[week-1]' class="material-icons red">trending_down</i>    
+                <i *ngIf='user.scores[week] < user.scores[week-1]' class="material-icons red">trending_down</i>     -->
             </td>
             <td>{{ user.score }}</td>
             <td>{{ user.scores[week-1] }}</td>

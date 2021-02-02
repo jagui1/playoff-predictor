@@ -4,6 +4,7 @@ import { User } from '../../entities/User';
 import { Entry } from '../../entities/Entry';
 import { ApiService } from 'src/app/api.service';
 import { Game } from 'src/app/entities/Game';
+import { PlayoffWeek } from 'src/app/entities/PlayoffWeek';
 
 type Champion = {style: string, answer: string, final: string};
 type PredictGame = Array<{teams: string, winner: string, style: string}>;
@@ -34,7 +35,7 @@ export class DetailComponent implements OnInit {
   ngOnInit() {
     this.data.getResults().subscribe(res => this.results = res);
 
-    this.week = 1;
+    this.week = 2;
 
     this.data.getUsers().subscribe(
       res => {
@@ -50,74 +51,76 @@ export class DetailComponent implements OnInit {
 
     this.games = [];
     let total : number = 0;
+    let curWeek: PlayoffWeek = entry.weeks[week];
+    let resWeek: PlayoffWeek = this.results.weeks[week];
 
-    if(entry.afcWinner === this.results.afcWinner){
+    if(curWeek.afcWinner === resWeek.afcWinner){
       this.afc = {
         "style": this.CORRECT,
-        "answer": entry.afcWinner,
-        "final": this.results.afcWinner
+        "answer": curWeek.afcWinner,
+        "final": resWeek.afcWinner
       }
       total += 5;
-    } else if (this.results.eliminated.includes(entry.afcWinner)){
+    } else if (this.results.eliminated.includes(curWeek.afcWinner)){
       this.afc = {
         "style": this.INCORRECT,
-        "answer": entry.afcWinner,
-        "final": this.results.afcWinner
+        "answer": curWeek.afcWinner,
+        "final": resWeek.afcWinner
       }
     } else {
       this.afc = {
         "style": this.UNANSWERED,
-        "answer": entry.afcWinner,
-        "final": this.results.afcWinner
+        "answer": curWeek.afcWinner,
+        "final": resWeek.afcWinner
       }
     }
 
-    if(entry.nfcWinner === this.results.nfcWinner){
+    if(curWeek.nfcWinner === resWeek.nfcWinner){
       this.nfc = {
         "style": this.CORRECT,
-        "answer": entry.nfcWinner,
-        "final": this.results.nfcWinner
+        "answer": curWeek.nfcWinner,
+        "final": resWeek.nfcWinner
       }
       total += 5;
-    } else if (this.results.eliminated.includes(entry.nfcWinner)){
+    } else if (this.results.eliminated.includes(curWeek.nfcWinner)){
       this.nfc = {
         "style": this.INCORRECT,
-        "answer": entry.nfcWinner,
-        "final": this.results.nfcWinner
+        "answer": curWeek.nfcWinner,
+        "final": resWeek.nfcWinner
       }
     } else {
       this.nfc = {
         "style": this.UNANSWERED,
-        "answer": entry.nfcWinner,
-        "final": this.results.nfcWinner
+        "answer": curWeek.nfcWinner,
+        "final": resWeek.nfcWinner
       }
     }
 
-    if(entry.sbWinner === this.results.sbWinner){
+    if(curWeek.sbWinner === resWeek.sbWinner){
       this.sb = {
         "style": this.CORRECT,
-        "answer": entry.sbWinner,
-        "final": this.results.sbWinner
+        "answer": curWeek.sbWinner,
+        "final": resWeek.sbWinner
       }
       total += 5;
-    } else if (this.results.eliminated.includes(entry.sbWinner)){
+    } else if (this.results.eliminated.includes(curWeek.sbWinner)){
       this.sb = {
         "style": this.INCORRECT,
-        "answer": entry.sbWinner,
-        "final": this.results.afcWinner
+        "answer": curWeek.sbWinner,
+        "final": resWeek.afcWinner
       }
     } else {
       this.sb = {
         "style": this.UNANSWERED,
-        "answer": entry.sbWinner,
-        "final": this.results.sbWinner
+        "answer": curWeek.sbWinner,
+        "final": resWeek.sbWinner
       }
     }
 
     let allGames : Game[] = [];
     let allResults : Game[] = [];
 
-    for(let j in this.results.weeks){
+    for(let j in entry.weeks){
       allGames = entry.weeks[j].games;
       allResults = this.results.weeks[j].games;
       this.games.push([]);
