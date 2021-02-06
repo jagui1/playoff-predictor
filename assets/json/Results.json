@@ -1,11 +1,11 @@
 {
-    "afcWinner": null,
-    "nfcWinner": null,
-    "sbWinner": null,
-    "eliminated": ["Colts", "Seahawks", "Washington Football Team", "Titans", "Bears", "Steelers", "Rams", "Ravens", "Browns", "Saints"],
+    "eliminated": ["Colts", "Seahawks", "Washington Football Team", "Titans", "Bears", "Steelers", "Rams", "Ravens", "Browns", "Saints", "Bills", "Packers"],
     "weeks": [
         {        
             "weekName": "Wildcard Weekend",
+            "afcWinner": null,
+            "nfcWinner": null,
+            "sbWinner": null,
             "games": [
                 {
                     "home": "Bills",
@@ -41,6 +41,9 @@
         },
         {        
             "weekName": "Divisional Round",
+            "afcWinner": null,
+            "nfcWinner": null,
+            "sbWinner": null,
             "games": [
                 {
                     "home": "Packers",
@@ -66,21 +69,27 @@
         },
         {        
             "weekName": "Championship Round",
+            "afcWinner": "Chiefs",
+            "nfcWinner": "Buccaneers",
+            "sbWinner": null,
             "games": [
-                {
-                    "home": "Chiefs",
-                    "away": "Bills",
-                    "winner": null
-                },
                 {
                     "home": "Saints",
                     "away": "Buccaneers",
-                    "winner": null
+                    "winner": "Buccaneers"
+                },
+                {
+                    "home": "Chiefs",
+                    "away": "Bills",
+                    "winner": "Chiefs"
                 }
             ]
         },
         {        
             "weekName": "Super Bowl",
+            "afcWinner": null,
+            "nfcWinner": null,
+            "sbWinner": null,
             "games": [
                 {
                     "home": "home",

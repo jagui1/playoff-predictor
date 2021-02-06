@@ -6,12 +6,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Buccaneers",
-            "sbWinner": "Chiefs",
             "weeks": [
                 {
                     "weekName": "Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Chiefs",
                     "games": [
                         {
                             "home": "Bills",
@@ -47,6 +47,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Chiefs",
                     "games": [
                         {
                             "home": "Packers",
@@ -69,6 +72,24 @@
                             "winner": "Buccaneers"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Chiefs",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
+                        }
+                    ]
                 }
             ]
         }
@@ -80,12 +101,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Browns",
-            "nfcWinner": "Washington Football Team",
-            "sbWinner": "Browns",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Browns",
+                    "nfcWinner": "Washington Football Team",
+                    "sbWinner": "Browns",
                     "games": [
                         {
                             "home": "Bills",
@@ -121,6 +142,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Browns",
+                    "nfcWinner": "Washington Football Team",
+                    "sbWinner": "Browns",
                     "games": [
                         {
                             "home": "Packers",
@@ -143,6 +167,24 @@
                             "winner": "Buccaneers"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Browns",
+                    "nfcWinner": "Washington Football Team",
+                    "sbWinner": "Browns",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
+                        }
+                    ]
                 }
             ]
         }
@@ -160,6 +202,9 @@
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
                     "games": [
                         {
                             "home": "Bills",
@@ -195,6 +240,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
                     "games": [
                         {
                             "home": "Packers",
@@ -217,6 +265,24 @@
                             "winner": "Saints"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Bills"
+                        }
+                    ]
                 }
             ]
         }
@@ -228,12 +294,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Bills",
-            "nfcWinner": "Packers",
-            "sbWinner": "Packers",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Packers",
                     "games": [
                         {
                             "home": "Bills",
@@ -269,6 +335,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Packers",
                     "games": [
                         {
                             "home": "Packers",
@@ -291,6 +360,24 @@
                             "winner": "Saints"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Packers",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
+                        }
+                    ]
                 }
             ]
         }
@@ -302,12 +389,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Saints",
-            "sbWinner": "Bills",
             "weeks": [
                 {            
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
                     "games": [
                         {
                             "home": "Bills",
@@ -343,6 +430,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
                     "games": [
                         {
                             "home": "Packers",
@@ -365,6 +455,24 @@
                             "winner": "Saints"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Bills"
+                        }
+                    ]
                 }
             ]
         }
@@ -376,12 +484,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Saints",
-            "sbWinner": "Saints",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Saints",
                     "games": [
                         {
                             "home": "Bills",
@@ -417,6 +525,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Saints",
                     "games": [
                         {
                             "home": "Packers",
@@ -439,6 +550,24 @@
                             "winner": "Saints"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Saints",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
+                        }
+                    ]
                 }
             ]
         }
@@ -450,12 +579,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Buccaneers",
-            "sbWinner": "Buccaneers",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Buccaneers",
                     "games": [
                         {
                             "home": "Bills",
@@ -491,6 +620,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Buccaneers",
                     "games": [
                         {
                             "home": "Packers",
@@ -513,6 +645,24 @@
                             "winner": "Buccaneers"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Buccaneers",
+                    "sbWinner": "Buccaneers",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Buccaneers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Bills"
+                        }
+                    ]
                 }
             ]
         }
@@ -524,12 +674,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Bills",
-            "nfcWinner": "Saints",
-            "sbWinner": "Bills",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
                     "games": [
                         {
                             "home": "Bills",
@@ -565,6 +715,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
                     "games": [
                         {
                             "home": "Packers",
@@ -587,6 +740,24 @@
                             "winner": "Buccaneers"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Bills",
+                    "nfcWinner": "Saints",
+                    "sbWinner": "Bills",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Bills"
+                        }
+                    ]
                 }
             ]
         }
@@ -598,12 +769,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Packers",
-            "sbWinner": "Ravens",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
                     "games": [
                         {
                             "home": "Bills",
@@ -639,6 +810,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
                     "games": [
                         {
                             "home": "Packers",
@@ -661,6 +835,24 @@
                             "winner": "Saints"
                         }
                     ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Ravens",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
+                        }
+                    ]
                 }
             ]
         }
@@ -672,12 +864,12 @@
         "scores": [],
         "positions": [],
         "entry": {
-            "afcWinner": "Chiefs",
-            "nfcWinner": "Packers",
-            "sbWinner": "Chiefs",
             "weeks": [
                 {
                     "weekName":"Wildcard Weekend",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Chiefs",
                     "games": [
                         {
                             "home": "Bills",
@@ -713,6 +905,9 @@
                 },
                 {
                     "weekName": "Divisional Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Chiefs",
                     "games": [
                         {
                             "home": "Packers",
@@ -733,6 +928,24 @@
                             "home": "Saints",
                             "away": "Buccaneers",
                             "winner": "Saints"
+                        }
+                    ]
+                },
+                {
+                    "weekName": "Championship Round",
+                    "afcWinner": "Chiefs",
+                    "nfcWinner": "Packers",
+                    "sbWinner": "Chiefs",
+                    "games": [
+                        {
+                            "home": "Packers",
+                            "away": "Buccaneers",
+                            "winner": "Packers"
+                        },
+                        {
+                            "home": "Chiefs",
+                            "away": "Bills",
+                            "winner": "Chiefs"
                         }
                     ]
                 }
